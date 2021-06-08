@@ -1,0 +1,10 @@
+Spam and Ham mail Prediction Problem:
+
+This dataset contains information about Salary prediction based experience, test score etc predict the salary.
+
+
+Approach:
+
+By using LinearRegression , we are predicting the Salary price based on user input data
+
+Here we used Flask web application Framework and deployed in Heroku cloud platform (Platform As A service-PAAS) 
