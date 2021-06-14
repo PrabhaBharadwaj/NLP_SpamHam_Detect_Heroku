@@ -17,11 +17,12 @@ app = Flask(__name__)
 
 
 # Here it invoked by  the webpage to pass its input user data
+#@app is flask imported object app
 @app.route('/')
 def home():
     return render_template('home.html')
 
-
+#@app is flask imported object app
 @app.route('/predict', methods =['POST'])
 def predict():
     
@@ -38,3 +39,4 @@ def predict():
 
 if __name__ == '__main__':
 	app.run(debug=True)
+	#@app is flask imported object app
