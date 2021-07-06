@@ -2,13 +2,19 @@
 NLP Heroku deployment sample
 
 
-
-# NLP-Model-Flask-Heroku-Deployment
-
-
-# SPAM_HAM_Detection
-
+# NLP-Model-Flask-Heroku-Deployment:
 This is a demo project to elaborate how Machine Learn NLP Models are deployed on production using Flask API.
+Spam and Ham mail Prediction classification NLP Problem.
+This dataset contains information about Salary prediction based experience, test score etc predict the salary.
+
+
+## Approach:
+
+Here we have spam.csv file, by using NLP Count Vectorizer We will identify the mail as SPAM or Ham and using Flask deploy in heroku
+
+Here we used Flask web application Framework and deployed in Heroku cloud platform (Platform As A service-PAAS) 
+Here we have spam.csv file, by using NLP Count Vectorizer We will identify the mail as SPAM or Ham and using Flask deploy in heroku
+
 
 ## Prerequisites
 You must have Scikit Learn, Pandas (for Machine Leraning Model) and Flask (for API) installed.
